@@ -1,0 +1,26 @@
+.navbar-nav{
+  color: white !important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 0px 15px 0px;
+  font-family: "Roboto", sans-serif;
+  position: relative; 
+}
+
+.boxed-btn {
+  background: #0086d3;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 29px 13px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff !important;
+  cursor: pointer;
+}

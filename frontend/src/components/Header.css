@@ -1,0 +1,11 @@
+.bg-container {
+    background-image: url('../assets/banner/banner.png'); /* Path to your image */
+    background-size: cover;         /* Ensure the image covers the entire area */
+    background-position: center;    /* Center the image */
+    background-repeat: no-repeat;   /* Do not repeat the image */
+    min-height: 100vh;              /* Full viewport height */
+    width: 100%;                    /* Full width */
+  }
+  img{
+    width: 80%;
+  }
