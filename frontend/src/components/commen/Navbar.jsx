@@ -36,7 +36,7 @@ const Navbar = () => {
     }
   };
 
-  const socket = useMemo(() => io("https://job-portal-zidio-backend.onrender.com"), []);
+  const socket = useMemo(() => io("http://localhost:8000"), []);
 
   const { jobMsgs } = useSelector((store) => store.job);
   // confirm(jobMsgs.data);

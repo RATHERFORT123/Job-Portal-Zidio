@@ -44,7 +44,7 @@ const PostJob = () => {
     setInput({ ...input, companyId: selectedCompany._id });
   };
 
-  const socket = useMemo(() => io("https://job-portal-zidio-backend.onrender.com"), []);
+  const socket = useMemo(() => io("http://localhost:8000"), []);
 
   const submitHandler = async (e) => {
     e.preventDefault();

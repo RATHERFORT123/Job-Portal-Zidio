@@ -11,7 +11,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/api": "https://job-portal-zidio-backend.onrender.com/",
+      "/api": "http://localhost:8000/",
     },
   },
 });
